@@ -1,0 +1,25 @@
+html {
+    min-height: 100%;
+}
+#image {
+    margin-right: 2px;
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.navbar-brand {
+    color: white !important;
+    font-family:"Times New Roman", Times, serif; 
+    font-weight: bold;
+    font-size: 2rem;
+}
+body {
+    background-color: whitesmoke;
+}
+nav.navbar.navbar-light.bg-light {
+    background-color: grey !important;
+}
+.footer {
+    background-color: gray;
+    bottom: 0;
+}
