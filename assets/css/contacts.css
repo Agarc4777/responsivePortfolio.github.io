@@ -6,7 +6,7 @@
     padding-bottom: 5px;
 }
 .navbar-brand {
-    color: white !important;
+    color: black !important;
     font-family:"Times New Roman", Times, serif; 
     font-weight: bold;
     font-size: 2rem;
@@ -44,4 +44,7 @@ nav.navbar.navbar-light.bg-light {
     height: 25px;
     width: 80%;
     border-style: solid;
+}
+.container {
+    margin-top: 4%;
 }

@@ -8,13 +8,13 @@ html {
     padding-bottom: 5px;
 }
 .navbar-brand {
-    color: white !important;
+    color: black !important;
     font-family:"Times New Roman", Times, serif; 
     font-weight: bold;
     font-size: 2rem;
 }
 body {
-    background-color: whitesmoke;
+    background-color: white;
 }
 nav.navbar.navbar-light.bg-light {
     background-color: grey !important;
@@ -22,4 +22,12 @@ nav.navbar.navbar-light.bg-light {
 .footer {
     background-color: gray;
     bottom: 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
 }
