@@ -31,3 +31,7 @@ nav.navbar.navbar-light.bg-light {
     color: white;
     text-align: center;
 }
+
+img.hw {
+    max-width: 200px;
+}
