@@ -9,7 +9,7 @@ import Scheduler from "../../images/scheduler.png";
 function Projects() {
     return (
         <div className="main-container">
-            <h3> a few of my projects </h3>
+            <h3 id="project"> Heres a few of my projects </h3>
             <div className="post-wrapper">
                 <div className="post" id= "1">
                     <Image src={Burgers} id="ProPic"/>
