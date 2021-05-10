@@ -1,12 +1,18 @@
 import React from 'react'
+import "./style.css";
+import Image from 'react-bootstrap/Image';
+import Burgers from "../../images/burgers.png";
+import GroupPro from "../../images/groupProject.png";
+import Scheduler from "../../images/scheduler.png";
 
-function projects() {
+
+function Projects() {
     return (
         <div className="main-container">
             <h3> a few of my projects </h3>
             <div className="post-wrapper">
                 <div className="post" id= "1">
-                    <img className="thumbnail" src="assets\images\burgers.png" alt="App image"></img>
+                    <Image src={Burgers} id="ProPic"/>
                     <div className="post-preview">
                         <h6 className="post-title"></h6>
                         <div className="project-links">
@@ -18,7 +24,7 @@ function projects() {
                     </div>
                 </div>
                 <div className="post" id= "2">
-                    <img className="thumbnail" src="assets\images\groupProject.png" alt="App imag" ></img>
+                    <Image src={GroupPro} id="ProPic"/>
                     <div className="post-preview">
                         <h6 className="post-title"></h6>
                         <div className="project-links">
@@ -30,7 +36,7 @@ function projects() {
                     </div>
                 </div>
                 <div className="post" id= "3">
-                    <img className="thumbnail" src="assets\images\scheduler.jpg" alt="App imag" ></img>
+                    <Image src={Scheduler} id="ProPic"/>
                     <div className="post-preview">
                         <h6 className="post-title"></h6>
                         <div className="project-links">
@@ -47,4 +53,4 @@ function projects() {
     )
 }
 
-export default projects;
+export default Projects;
