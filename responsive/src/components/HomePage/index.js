@@ -1,6 +1,6 @@
 import React from 'react';
 import "./style.css";
-import Portfolio from "../../images/portfolioPic.jpg";
+import Picture from "../../images/headshot.png";
 import Image from 'react-bootstrap/Image';
 
 function HomePage() {
@@ -8,7 +8,7 @@ function HomePage() {
       <div className="container-fluid">
         <div className="row">
           <div class="clearfix" id="links">
-            <Image src={Portfolio} class="col-md-6 float-md-end mb-3 ms-md-3" id="Img" alt="picture of me"/>
+            <Image src={Picture} class="col-md-6 float-md-end mb-3 ms-md-3" id="Img" alt="picture of me"/>
             <p>
             <h1 id="Contact">Hello! My name is Ignacio Garcia.</h1>
             <p>If you would like to reach out to me, here are some links to some of my accounts and my email</p>
